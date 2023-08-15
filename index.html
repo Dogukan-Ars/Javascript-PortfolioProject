@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--================= FAVICON =================-->
+    <link rel="shortcut icon" href="assets/images/Delta-32.png" type="image/x-icon">
+    
+    <!--================= REMIXICONS =================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--================= SWIPER CSS =================-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--================= STYLE CSS =================-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Dogukan Responsive Portfolio Page</title>
+</head>
+<body>
+    <!--================= HEADER START =================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Dogukan
+            </a>
+            <!------------ Nav Bar ------------>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-home-3-line"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-mark-line"></i> Qualifications
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-folders-line"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!------------ Close Button ------------>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!------------ Theme Change Button ------------>
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <!------------ Toggle Button ------------>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-5-line"></i>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+    <!--================= HEADER END =================-->
+
+    <!--================= MAIN START =================-->
+    <main class="main">
+        <!------------ HOME START ------------>
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'm <span>D.</span><br></h1>
+                    <div class="home__title-animated">
+                        <h3 id="home__title-animated">Self-taught Frontend <span class="home__title-animated-mobil">Developer</span></h3>
+                    </div>
+                </div>
+                <!-- Home profile picture part -->
+                <div class="home__picpart grid">
+                    <div class="home__pp">
+                        <img src="assets/images/Original-removebg.png" alt="home pp">
+                    </div>
+                    <img src="assets/images/shape-wawes.svg" alt="" class="home__shape-waves">
+                    <img src="assets/images/shape-circle.svg" alt="" class="home__shape-circle">
+
+                    <ul class="home__social">
+                        <a href="https://www.linkedin.com/in/dogukan-ars/?locale=en_US" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/Drynwhyll" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://medium.com/@arss.dogukan" target="_blank" class="home__social-link">
+                            <i class="ri-medium-line"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!------------ HOME END ------------>
+
+        <!------------ ABOUT START ------------>
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Who am i</span>
+
+            <div class="about__container container grid section__border">
+                <!---------- ABOUT INFO ---------->
+                <div class="about__info">
+                    <div class="about__biography">
+                        <h3 class="about__title">
+                            BIOGRAPHY
+                        </h3>
+                        <p class="about__description">
+                            Hi, I'm D. I'm 27 and self-taught Frontend Developer.
+                            Becoming a programmer has always been my dream job. 
+                            That's why I'm here with passion, curiosity, and a strong will.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h3 class="about__title">
+                            CONTACT
+                        </h3>
+                        <p class="about__description">
+                            <i class="ri-map-pin-2-line"></i> City, Country <br>
+                            <i class="ri-mail-line"></i> yourmail@gmail.com <br>
+                            <i class="ri-phone-line"></i> +x 555 555 5555 <br>
+                        </p>
+                        </div>
+
+                        <div class="about__description">
+                            <h3 class="about__title">
+                                MY RESUME
+                            </h3>
+                            <p class="about__resume">
+                                <a href="resumeLink" alt="CV" target="_blank"> CV <i class="ri-arrow-right-up-line"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------ ABOUT END ------------>
+
+        <!------------ SKILLS START ------------>
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My skills</span>
+
+            <div class="skills__container container grid section__border">
+                <!---------- SKILLS 1 START ---------->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Frontend
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/html-5.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">HTML5</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/css-3.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">CSS3</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/bootstrap-5-1.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">Bootstrap 5</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/sass-1.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">SASS</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/jquery-1.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">jQuery</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/javascript.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/es6.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">ES6</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/react-2.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">React</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!---------- SKILLS 2 START ---------->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-database-2-line"></i> Backend
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/java-4.svg" alt="skills images">
+                            </div>
+
+                            <h3 class="skills__name">Java</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
+                            </div>
+
+                            <h3 class="skills__name">SQL</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring"/>
+                            </div>
+
+                            <h3 class="skills__name">Spring</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <h3 class="skills__title" id="tools">
+                        <i class="ri-pantone-line"></i> Tools
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/>
+                            </div>
+
+                            <h3 class="skills__name">GIT</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__picpart">
+                                <img src="assets/images/figma-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Figma</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!---------- SKILLS END ---------->
+
+        <!------------ QUALIFICATION START ------------>
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Education & Courses</span>
+
+            <div class="qualification__container container grid section__border">
+
+                <!---------- QUALIFICATION 1 ---------->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Department
+                            </h3>
+                            <span class="qualification__school">University</span>
+                            <span class="qualification__year">2023 - 202.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!---------- QUALIFICATION 2 ---------->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Courses
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Course Name
+                            </h3>
+                            <a href="Links"><span class="qualification__course">Taken from...</span></a>
+                            <span class="qualification__year">2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Course Name
+                            </h3>
+                            <a href="Links"><span class="qualification__course">Taken from...</span></a>
+                            <span class="qualification__year">2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Course Name
+                            </h3>
+                            <a href="Links"><span class="qualification__course">Taken from...</span></a></span>
+                            <span class="qualification__year">2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Course Name
+                            </h3>
+                            <a href="Links"><span class="qualification__course">Taken from...</span></a>
+                            <span class="qualification__year">2023</span>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/images/shape-circle.svg" alt="qualification image" class="qualification__img">
+        </section>        
+        <!------------ QUALIFICATION END ------------>
+        
+        <!------------ PROJECTS START ------------>
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent projects</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+
+                        <!---------- PROJECT 1 ---------->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/images/Project1.png" alt="project__name" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Web App</span>
+                                <h1 class="projects__title">Project 1</h1>
+
+                                <a href="linkHereapp/" target="_blank" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!---------- PROJECT 2 ---------->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/images/Project2.png" alt="project__name" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Web App</span>
+                                <h1 class="projects__title">Project 2</h1>
+                                
+                                <a href="linkHere" target="_blank" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!---------- PROJECT 3 ---------->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/images/Project3.png" alt="project__name" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Web App</span>
+                                <h1 class="projects__title">Project 3</h1>
+
+                                <a href="linkHere" target="_blank" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!---------- PROJECT 4 ---------->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/images/Project4.png" alt="project__name" class="projects__img" style="height: 450px;">
+    
+                            <div>
+                                <span class="projects__subtitle">Web App</span>
+                                <h1 class="projects__title">Project 4</h1>
+    
+                                <a href="linkHere" target="_blank" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    <!-- Swiper arrows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!-- Swiper pagination -->
+                    <div class="swiper-pagination">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------ PROJECTS END ------------>
+
+        <!------------ CONTACT START ------------>
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">yourmail@gmail.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Whatsapp</span>
+                            <span class="contact__data-info">+x 555 555 5555</span>
+                            <!-- Insert a real number plus country code -->
+                            <a href="https://api.whatsapp.com/send?phone='writeyournumberhere'&text=Hello, more information!" target="_blank" class="contact__button">
+                                Write me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="contact__data">
+                            <span class="contact__data-title">Linkedin</span>
+                            <span class="contact__data-info">/dogukan-ars</span>
+
+                            <a href="https://www.linkedin.com/in/dogukan-ars/?locale=en_US" target="_blank" class="contact__button">
+                                Contact with me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Write me your questions
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="Write your name" class="contact__form-input" id="contact-name">
+                        </div>
+                        
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" required placeholder="Write your email" class="contact__form-input" id="contact-email">
+                        </div>
+                        
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Questions</label>
+                            <textarea name="user_question" placeholder="Write your question" class="contact__form-input" id="contact-question"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!------------ CONTACT END ------------>
+
+    </main>
+    <!--================= MAIN END =================-->
+
+    <!--================= FOOTER START =================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Dogukan</h1>
+            <p>Self-taught Frontend Developer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="http://www.linkedin.com/in/dogukan-ars/?locale=en_US" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://github.com/Drynwhyll" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="https://medium.com/@arss.dogukan" target="_blank" class="footer__social-link">
+                    <i class="ri-medium-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright Dogukan. All rights reserved
+            </span>
+        </div>
+    </footer>
+    <!--================= FOOTER END =================-->
+
+    <!--================= SCROLLUP =================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--================= SCROLLREVEAL =================-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--================= SWIPER JS =================-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--================= EMAIL JS =================-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--================= MAIN JS =================-->
+    <script src="js/main.js"></script>
+</body>
+</html>
