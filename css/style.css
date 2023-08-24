@@ -544,6 +544,8 @@ body.dark-theme {
 .qualification__info {
     display: grid;
     row-gap: 2rem;
+    margin-bottom: 2rem;
+    
 }
 
 .qualification__name {
